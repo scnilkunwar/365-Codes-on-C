@@ -12,7 +12,7 @@ int main()
 	if(word != NULL)
 	{
 		int pos = word - str1 + 1;
-		printf("\"girlfriend\" found at pos %d in string1\n",pos);
+		printf("\"girlfriend\" found at position %d in string1\n",pos);
 	}
 	else
 		printf("no \"girlfriend\" in string1\n");
@@ -22,7 +22,7 @@ int main()
 	word = strstr(str2, "girlfriend");
 	if(word != NULL)
 	{
-		int pos = word - str1 + 1;
+		int pos = word - str2 + 1;
 		printf("\"girlfriend\" found at pos %d in string2\n",pos);
 	}
 	else
