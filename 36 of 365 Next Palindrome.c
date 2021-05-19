@@ -18,7 +18,7 @@ int check_palindrome(long long num)
 int main()
 {
 	long long num;
-	printf("\n\nEnter a num: ");
+	printf("Enter a num: ");
 	scanf("%lld",&num);
 	
 	long long i = num;
@@ -26,7 +26,7 @@ int main()
 	{
 		if(check_palindrome(i))
 		{
-			printf("Next palindome is: %lld\n",i);
+			printf("Next palindrome is: %lld\n",i);
 			break;
 		}
 		i++;
