@@ -21,7 +21,7 @@ int main()
 	printf("Enter a num: ");
 	scanf("%lld",&num);
 	
-	long long i = num;
+	long long i = num + 1;
 	while(1)
 	{
 		if(check_palindrome(i))
